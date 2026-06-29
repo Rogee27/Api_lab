@@ -1,0 +1,92 @@
+# ==========================================
+# ARCHIVO .gitignore COMPLETO PARA PYTHON
+# ==========================================
+
+# --- Archivos compilados y de caché ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# --- Entornos virtuales y dependencias ---
+.venv
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+bin/
+include/
+lib/
+lib64/
+share/
+pip-selfcheck.json
+.python-version
+
+# --- Empaquetado, distribución y metadatos ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Pruebas, cobertura y análisis de código ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# --- Configuraciones de IDEs y Editores ---
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# --- Datos, Variables de Entorno y Seguridad ---
+.env
+.venv
+*.env
+*.bak
+*.database
+*.db
+*.sqlite3
+
+# --- Archivos del Sistema Operativo ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
